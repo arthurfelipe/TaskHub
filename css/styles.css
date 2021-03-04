@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-block-container {
+    display: flex;
+}
+
+.content-block-container {
+    display: flex;
+}
+
+.logo-container {
+    padding: 0.7em 0.3em 1em 0.5em;
+}
+
+.navbar-container {
+    display: flex;
+}
+
+.search-container {
+    background-color: #F3E1C7;
+    border-radius: 20px;
+    padding: 0 2em 0 2em;
+        height: 73px;
+        width: 60vw;
+    margin: 0 0.5em 0 3em;
+}
+
+.search-container > p{
+    font-family: 'Kodchasan', sans-serif;
+        font-size: 6mm;
+}
+
+#searchBar { /*modifies the content on the search bar itself - like text and shape*/
+    color: rgb(43, 43, 43);
+    font-family: 'Kodchasan', sans-serif;
+        font-size: medium;
+    background-color: #FFFCF8;
+    border-radius: 8px;
+        border: none;
+        outline: none;
+    padding: 0.2em 30vw 0.095em 0.5em;
+    margin: 0 0 0 0.7em;
+}
+
+.svg-container li,
+.list-container li {
+    list-style: none;
+    line-height: 2.3em;
+    margin: 1em 0 0 1em;
+}
+
+.list-container > ul { /*it's weird, but it removes preset padding from the ul, allowing text and svg to be 'SxS'*/
+    padding: 0;
+}
+
+.list-container > ul > li > a {
+    text-decoration: none;
+    color: black;
+    line-height: 1.9em;
+    font-weight: 900;
+}
+
+#current { /*adds as underline effect to the s.m. link of whichever page is current selected*/
+    text-decoration: underline!important;
+}
+
+.middle-container {
+    /* background-color: rgb(223, 228, 233); */
+    margin: 0 0 0 5em;
+}
+
+.right-block-container {
+    background-color: #eef8fcfb;
+    box-shadow: 5px 5px 10px 0px
+                #000000 25%;
+    margin: 0 0.5em 0 2em;
+        border-radius: 20px;
+        height: 100vh;
+        width: 16em;
+    color: #616161;
+}
+
+.user-info {
+    text-align: center;
+    padding: 2em 0 0 0;
+    font-weight: 500;
+}
